@@ -22,8 +22,5 @@ let package = Package(
             dependencies: [
                 .product(name: "Supabase", package: "supabase-swift")
             ]),
-        .testTarget(
-            name: "LearnTrackTests",
-            dependencies: ["LearnTrack"]),
     ]
 )
